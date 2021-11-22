@@ -1,0 +1,99 @@
+/* Estilos CSS p/ Webcardapio */
+
+* {
+  background-color: black;
+  margin: 0;
+}
+
+@media only screen and (max-width: 360px) {
+    * {
+      background-color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container_header{
+      background-color: tomato;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 90px;
+    }
+
+    h1{
+      background-color: tomato;
+      font-size: 50px;
+    }
+
+    .container_main{
+      border: 0.1px solid red;
+      margin: 20px;
+      width: 318px;
+      height: 685px;
+    }
+
+    .card_refeicao{
+      border: 0.1px solid red;
+      height: 20%;
+      margin-bottom: 10px;
+    }
+
+    .top_card{
+      background-color: tomato;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 18px;
+      font-weight: bold;
+      width: 100%;
+      height: 50px;
+    }
+
+    .top_card > p{
+      background-color: tomato;
+    }
+
+    .nome{
+      text-align: start;
+      padding-left: 5px;
+    }
+
+    .preco{
+      text-align: end;
+      padding-right: 5px;
+    }
+
+    .ingredientes{
+      background-color: #fff;
+      padding-left: 5px;
+      font-size: 15px;
+    }
+
+    .container_footer{
+      background-color: tomato;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      width: 100%;
+      height: 45px;
+    }
+
+    .container_footer >  h5{
+      padding-left: 20px;
+      background-color: tomato;
+    }
+
+    .container_footer > form{
+      padding-right: 20px;
+      background-color: tomato;
+    }
+
+    .call{
+      background-color: tomato;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      height: 30px;
+      padding: 0 5px 0 5px;
+    }
+  }
