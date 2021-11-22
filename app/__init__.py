@@ -14,6 +14,6 @@ manager = Manager(app)
 manager.add_command("runserver", Server(host='0.0.0.0'))
 
 
-from app.controllers import home
+from app.controllers import webcardapio
 
 # Flask db init / migrate / upgrade

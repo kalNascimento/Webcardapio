@@ -1,5 +1,6 @@
+from flask import render_template
 from app import app
 
 @app.route('/' , methods=["GET", "POST"])
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return render_template('webcardapio.html')
