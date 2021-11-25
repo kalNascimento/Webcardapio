@@ -1,1 +1,41 @@
 /* Estilos CSS p/ Administração */
+*{
+    background-color:  #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container_header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.main_menu{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 750px;
+    height: 100px;
+}
+
+ul{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 650px;
+    list-style: none;
+    
+}
+
+.menu_button{
+    background-color: purple;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
