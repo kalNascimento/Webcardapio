@@ -1,45 +1,44 @@
 /* Estilos CSS p/ Webcardapio */
 
-* {
-  background-color: black;
-  margin: 0;
-}
-
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     * {
-      background-color: #fff;
+      background-color: #000000;
+      color: #FFFFFF;
       font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+      margin: 0;
     }
 
-    .container_header{
-      background-color: tomato;
+    header div{
+      background-color: #000000;
+      border-bottom: 1px solid white;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: 90px;
+      height: 100px;
     }
 
     h1{
-      background-color: tomato;
+      background-color: transparent;
       font-size: 50px;
     }
 
     .container_main{
-      border: 0.1px solid red;
-      margin: 20px;
+      /*border: 0.1px solid red;*/
+      margin: 20px auto 0 auto;
       width: 318px;
       height: 685px;
     }
 
     .card_refeicao{
-      border: 0.1px solid red;
+      border: 0.1px solid #FFFFFF;
       height: 20%;
       margin-bottom: 10px;
     }
 
     .top_card{
-      background-color: tomato;
+      background-color: #FFFFFF;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -50,7 +49,8 @@
     }
 
     .top_card > p{
-      background-color: tomato;
+      background-color: transparent;
+      color: #000000;
     }
 
     .nome{
@@ -64,7 +64,7 @@
     }
 
     .ingredientes{
-      background-color: #fff;
+      background-color: transparent;
       padding-left: 5px;
       font-size: 15px;
     }
