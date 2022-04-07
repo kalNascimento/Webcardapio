@@ -70,27 +70,29 @@
     }
 
     .container_footer{
-      background-color: tomato;
+      background-color: #000000;
+      border-top: 1px solid #FFFFFF;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
       width: 100%;
-      height: 45px;
+      height: 60px;
     }
 
     .container_footer >  h5{
       padding-left: 20px;
-      background-color: tomato;
+      padding: 15px 0 20px 20px;
+      background-color: transparent;
     }
 
     .container_footer > form{
-      padding-right: 20px;
-      background-color: tomato;
+      padding: 15px 20px 15px 0;
+      background-color: transparent;
     }
 
     .call{
-      background-color: tomato;
+      background-color: transparent;
       border-radius: 5px;
       border: 1px solid #fff;
       height: 30px;
