@@ -1,4 +1,3 @@
-
 # Webcardapio
 <!--Introdução-->
 #### Um webcardapio desenvolvido com HTML / CSS no frontend e Python Flask no backend.
@@ -29,4 +28,3 @@ No backend foi usado micro-framework Python flask para fazer o controles das rot
 O banco de dados foi feito com ferramentas do proprio Flask, onde terá uma tabela para armazenar os pratos disponiveis e as requisições para a cozinha.
 
 <!--Diagrama DER-->
-

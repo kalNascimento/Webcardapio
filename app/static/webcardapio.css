@@ -1,45 +1,44 @@
 /* Estilos CSS p/ Webcardapio */
 
-* {
-  background-color: black;
-  margin: 0;
-}
-
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     * {
-      background-color: #fff;
+      background-color: #000000;
+      color: #FFFFFF;
       font-family: Arial, Helvetica, sans-serif;
+      padding: 0;
+      margin: 0;
     }
 
-    .container_header{
-      background-color: tomato;
+    header figure{
+      background-color: #000000;
+      border-bottom: 1px solid white;
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
-      height: 90px;
+      height: 100px;
     }
 
     h1{
-      background-color: tomato;
+      background-color: transparent;
       font-size: 50px;
     }
 
     .container_main{
-      border: 0.1px solid red;
-      margin: 20px;
+      /*border: 0.1px solid red;*/
+      margin: 20px auto 0 auto;
       width: 318px;
       height: 685px;
     }
 
     .card_refeicao{
-      border: 0.1px solid red;
+      border: 0.1px solid #FFFFFF;
       height: 20%;
-      margin-bottom: 10px;
     }
 
-    .top_card{
-      background-color: tomato;
+    .card_refeicao > div{
+      background-color: transparent;
+      border-bottom: 1px solid #FFFFFF;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -49,8 +48,10 @@
       height: 50px;
     }
 
-    .top_card > p{
-      background-color: tomato;
+    .card_refeicao > p{
+      background-color: transparent;
+      color: #FFFFFF;
+      margin-top: 5px;
     }
 
     .nome{
@@ -64,33 +65,35 @@
     }
 
     .ingredientes{
-      background-color: #fff;
+      background-color: transparent;
       padding-left: 5px;
       font-size: 15px;
     }
 
     .container_footer{
-      background-color: tomato;
+      background-color: #000000;
+      border-top: 1px solid #FFFFFF;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-direction: row;
       width: 100%;
-      height: 45px;
+      height: 60px;
     }
 
-    .container_footer >  h5{
+    .container_footer figure{
       padding-left: 20px;
-      background-color: tomato;
+      padding: 15px 0 20px 20px;
+      background-color: transparent;
     }
 
     .container_footer > form{
-      padding-right: 20px;
-      background-color: tomato;
+      padding: 15px 20px 15px 0;
+      background-color: transparent;
     }
 
     .call{
-      background-color: tomato;
+      background-color: transparent;
       border-radius: 5px;
       border: 1px solid #fff;
       height: 30px;
