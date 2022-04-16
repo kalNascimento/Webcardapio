@@ -10,11 +10,21 @@ Esse webcardapio seria ligado a outro sistema, uma administração, por onde ser
 
 ### Design
 O design esperado foi desenvolvido com ajuda da ferramenta Figma contendo uma tela de apertura, a tela do menu, uma tela para finalizar pedidos e uma tela de agradecimento.
-
+#
+<div align="center">
+<img width="180" height="400" src="../webcardapio/design/initial_display.jpg">
 <!--Tela 1-->
+<img width="180" height="400" src="../webcardapio/design/menu_display.jpg">
 <!--Tela 2-->
+
+#
+<img width="180" height="400" src="../webcardapio/design/requests_display.jpg">
 <!--Tela 3-->
+<img width="180" height="400" src="../webcardapio/design/final_display.jpg">
 <!--Tela 4-->
+</div>
+
+#
 
 ### FrontEnd
 Como ja dito o frontend seria feito com HTML / CSS para funcionar em telas de até 400px no caso de celulares para telas maiores será feita uma adaptção do design desenvolvido.
