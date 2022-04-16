@@ -1,0 +1,114 @@
+/* Estilos CSS p/ Webcardapio */
+
+@media only screen and (max-width: 400px) {
+    * {
+        background-color: transparent;
+        color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    body{
+        background-color: #000000;
+    }
+
+    header{
+        background-color: #000000;
+        border-bottom: 2px solid #FFDE38;
+        width: 100%;
+        height: 150px;
+    }
+
+    header figure{
+        position: absolute;
+        top: 2px;
+        left: 25.5px;
+    }
+    
+    header label{
+        background-color: transparent;
+        color: #FFDE38;
+        font-size: 20px;
+        font-weight: 600;
+        position: relative;
+        top: 108px;
+        left: 244px;
+        width: 88px;
+    }
+
+    .card-menu-container{
+        position: relative;
+        top: 16px;
+        left: 16px;
+        background-color: #FAFAFA;
+        border-radius: 20px;
+        width: 328px;
+        height: 148px;
+    }
+
+    .header-card {
+        position: relative;
+        top: 2px;
+        left: 2px;
+        background-color: #000000;
+        color: #FAFAFA;
+        font-size: 20px;
+        font-weight: 700;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 324px;
+        height: 49px;
+    }
+
+    .header-card .nome{
+        position: relative;
+        left: 18px;
+        top: 11.5px;
+    }
+
+    .header-card .preco{
+        position: absolute;
+        left: 247px;
+        top: 20px;
+        font-size: 14px;
+    }
+
+    .header-card input{
+        position: absolute;
+        left: 298px;
+        top: 6px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .text-card {
+        position: relative;
+        left: 18px;
+        top: 4px;
+        text-align: center;
+        width: 292px;
+        height: 86px;
+    }
+
+    .text-card p{
+        color: #000000;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: justify;
+    }
+
+    form button{
+        position: absolute;
+        top: 718px;
+        left: 64px;
+        background-color: #FFDE38;
+        border: 3px solid #000000;
+        width: 231px;
+        height: 51px;
+        border-radius: 20px;
+        color: #000000;
+        font-size: 24px;
+        font-weight: bold;
+    }
+}
