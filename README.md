@@ -12,8 +12,7 @@ Esse webcardapio seria ligado a outro sistema, uma administração, por onde ser
 O design esperado foi desenvolvido com ajuda da ferramenta Figma contendo uma tela de apertura, a tela do menu, uma tela para finalizar pedidos e uma tela de agradecimento.
 #
 <div align="center">
-
-
+</div>
 #
 
 ### FrontEnd
