@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/css/menu_display.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <a href="./webcardapio.html">
+                <img src="../static/img/logo.png" alt="Logo do restaurante com a palavra cardapio embaixo">
+                <label for="logo">Cardápio</label>
+            </a>
+        </figure>
+        
+    </header>
+
+    <main>
+        <form id="form-menu"">
+            <nav class="menu-scroll">
+                <button>Lanches</button>
+                <button>Combos</button>
+                <button>Porções</button>
+                <button>Bebidas</button>
+                <button>Doces</button>
+            </nav>
+
+            <div class="menu-container">
+                
+                <label id="lanches">Lanches</label>
+                <div onclick="CardBorderChange(1)" class="card-container">
+                    <div id="border-1" class="header-card">
+                        <label>nome_prato</label>
+                        <label>R$ 000.00</label>
+                        <input id="checkbox-1" type="checkbox" name="selected-card" value="">
+                        <span class="bg-checkbox" ></span>
+                        <span class="checkbox" ></span>
+                    </div>
+
+                    <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet. 33 sint dolorem nam nihil suscipit ut 
+                            autem soluta aut quod quam vel neque quia et distinctio obcaecati ut 
+                            dignissimos omnis. Id exercitationem cumque et sint enim ut sunt quae 
+                            et impedit
+                        </p>
+                    </div>
+                </div>
+
+                <label>Combos</label>
+                <div onclick="CardBorderChange(2)" class="card-container">
+                    <div id="border-2" class="header-card">
+                        <label>nome_prato</label>
+                        <label>R$ 000.00</label>
+                        <input id="checkbox-2" type="checkbox" name="selected-card" value="">
+                        <span class="bg-checkbox" ></span>
+                        <span class="checkbox" ></span>
+                    </div>
+
+                    <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet. 33 sint dolorem nam nihil suscipit ut 
+                            autem soluta aut quod quam vel neque quia et distinctio obcaecati ut 
+                            dignissimos omnis. Id exercitationem cumque et sint enim ut sunt quae 
+                            et impedit
+                        </p>
+                    </div>
+                </div>
+
+                <label>Porções</label>
+                <div onclick="CardBorderChange(3)" class="card-container">
+                    <div id="border" class="header-card">
+                        <label>nome_prato</label>
+                        <label>R$ 000.00</label>
+                        <input id="checkbox" type="checkbox" name="selected-card" value="">
+                        <span class="bg-checkbox" ></span>
+                        <span class="checkbox" ></span>
+                    </div>
+
+                    <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet. 33 sint dolorem nam nihil suscipit ut 
+                            autem soluta aut quod quam vel neque quia et distinctio obcaecati ut 
+                            dignissimos omnis. Id exercitationem cumque et sint enim ut sunt quae 
+                            et impedit
+                        </p>
+                    </div>
+                </div>
+
+                <label>Bebidas</label>
+                <div onclick="CardBorderChange(4)" class="card-container">
+                    <div id="border" class="header-card">
+                        <label>nome_prato</label>
+                        <label>R$ 000.00</label>
+                        <input id="checkbox" type="checkbox" name="selected-card" value="">
+                        <span class="bg-checkbox" ></span>
+                        <span class="checkbox" ></span>
+                    </div>
+
+                    <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet. 33 sint dolorem nam nihil suscipit ut 
+                            autem soluta aut quod quam vel neque quia et distinctio obcaecati ut 
+                            dignissimos omnis. Id exercitationem cumque et sint enim ut sunt quae 
+                            et impedit
+                        </p>
+                    </div>
+                </div>
+
+                <label>Doces</label>
+                <div onclick="CardBorderChange(5)" class="card-container">
+                    <div id="border" class="header-card">
+                        <label>nome_prato</label>
+                        <label>R$ 000.00</label>
+                        <input id="checkbox" type="checkbox" name="selected-card" value="">
+                        <span class="bg-checkbox" ></span>
+                        <span class="checkbox" ></span>
+                    </div>
+
+                    <div class="text-card">
+                        <p>Lorem ipsum dolor sit amet. 33 sint dolorem nam nihil suscipit ut 
+                            autem soluta aut quod quam vel neque quia et distinctio obcaecati ut 
+                            dignissimos omnis. Id exercitationem cumque et sint enim ut sunt quae 
+                            et impedit
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            <button type="submit">Fazer Pedido</button>
+        </form>
+    </main>
+    <script src="../static/script/script.js"></script>
+</body>
+</html>
